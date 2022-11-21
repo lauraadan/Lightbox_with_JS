@@ -9,11 +9,8 @@
 
 :root
 {
-	--ctitulo:#304E71;
-	--cerrar: #307162;
-	--borde: #E1A98D;
-	--marcado: rgb(127, 195, 255);
-	--ttipografia: 'Montserrat', sans-serif; 
+	--ctittle:#304E71;
+	--tipography: 'Montserrat', sans-serif; 
 }
 
 /* FIN DE LA ZONA DE PSEUDO-CODIGO */
@@ -21,7 +18,7 @@
 
 body
 {
-	font-family: var(--ttipografia);
+	font-family: var(--tipography);
 	background-color: #D2DEE4;
 	display: flex;
 	flex-flow: row nowrap;
@@ -31,9 +28,9 @@ body
 }
 
 
-.titulo
+.tittle
 {
-	color: var(--ctitulo);
+	color: var(--ctittle);
 	font-size: 2em;
 	letter-spacing: 2px;
 }
@@ -46,10 +43,9 @@ body
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
 	grid-gap: 1em;
-	color: var(--ttipografia);
+	color: var(--tipography);
 	transition:  all 0.4s ease;
 	border-radius: 1em;
-
 }
 
 .ul .li 
@@ -98,18 +94,18 @@ img
 	pointer-events: none;
 }
 
-.lightbox.activo
+.lightbox.active
 {
 	opacity: 1;
 	transform: scale(1);
 	pointer-events: auto;
 }
 
-.lightbox .cerrar
+.lightbox .close
 {
 	width: 5em;
 	height: 3em;
-	background-color: var(--ttipografia);
+	background-color: var(--tipography);
 	margin: 0 0 1em;
 	color: black;
 	transition: all 0.5s ease;
@@ -117,7 +113,7 @@ img
 	cursor: pointer;
 }
 
-.lightbox .grande
+.lightbox .big
 {
 	width: 90%;
 	height: 90vh;
