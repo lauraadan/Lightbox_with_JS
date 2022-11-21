@@ -5,6 +5,6 @@
 
 LINKS
 
-- GITHUB PAGES: https://lauraadan.github.io/Lightbox_with_JS/
+- VERCEL: https://lightbox-with-js.vercel.app/
 
 - GITHUB: https://github.com/lauraadan/Lightbox_with_JS
